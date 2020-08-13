@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bot</title>
+	<link rel="stylesheet" href="bot.css" type="text/css">
+	<script src="bot.js" type="text/javascript"></script>
+	<link rel="icon" href="http://flarrio.com/wp-content/uploads/2017/01/AI-Bots.png" type="image/x-icon">
+</head>
+<body>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<p>
+		<div class="box">
+			<h1>Type in your text here: </h1>
+			<div>
+				<form onsubmit="return false;">
+					<input type="textbox" class="MainTextbox" id="TheInput" style="text-align: center;" onblur="saveVariable()">
+					<br>
+					<br>
+					<button class="enter" type="submit" onclick="saveVariable()">ENTER</button>
+				</form>
+			</div>
+			<br>
+			<br>
+			<span id="computer-text"></span>
+		</div>
+	</p>
+</body>
+</html>

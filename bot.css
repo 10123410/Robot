@@ -1,0 +1,53 @@
+* {
+	box-sizing: border-box;
+} 
+html {
+	background-color: cyan;
+}
+p {
+	float: center;
+}
+.box {
+	height: 600px;
+	width: 500px;
+	background-color: blue;
+	border: 1px solid white;
+	border-radius: 5%;
+	text-align: center;
+	box-shadow: 0 3px #ccc;
+	margin: 0 auto;
+	float: center;
+}
+.MainTextbox {
+	width: 300px;
+	height: 35px;
+	border: none;
+	text-transform: lowercase;
+	border: 1px solid grey;
+  	float: center;
+  	width: 80%;
+ 	background: #f1f1f1;
+ 	font-size: 100%;
+ 	border-radius: 20px;
+}
+.enter {
+	width: 40%;
+	height: 40px;
+	background-color: lightgreen;
+	color: blue;
+	border: none;
+	cursor: pointer;
+	border-radius: 10px;
+	display: block;
+	margin-left: 30%;
+	margin-right: 30%;
+}
+span {
+	color: lightgrey;
+	display: block;
+	clear: both;
+	font-size: xx-large;
+}
+div {
+	margin: 0 auto;
+}
